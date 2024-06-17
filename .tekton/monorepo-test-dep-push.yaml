@@ -22,7 +22,7 @@ spec:
   - name: revision
     value: '{{revision}}'
   - name: output-image
-    value: quay.io/redhat-user-workloads/mbasti-tenant/monorepo-test/monorepo-test-dep:{{revision}}
+    value: quay.io/redhat-user-workloads/rhtap-integration-tenant/integration-service/integration-service:{{revision}}}
   - name: dockerfile
     value: Dockerfile
   pipelineSpec:
